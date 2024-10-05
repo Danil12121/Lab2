@@ -1,7 +1,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n;
+    int n = 7;
+    for (int i = 1; i < 10; i++)
+        cout << i << " x " << n << " = " << n*i << endl;
+    cout << endl;
     cin >> n;
     for (int i = 1; i < 10; i++)
         cout << i << " x " << n << " = " << n*i << endl;
